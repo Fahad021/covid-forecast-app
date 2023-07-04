@@ -3,8 +3,8 @@
 import os
 
 from matplotlib import pyplot as plt
-from fbprophet import Prophet
-from fbprophet.plot import plot_plotly
+from prophet import Prophet
+from prophet.plot import plot_plotly
 
 import streamlit as st  # pylint: disable=import-error
 from load_data import load_data
